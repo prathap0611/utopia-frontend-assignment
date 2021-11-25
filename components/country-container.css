@@ -1,0 +1,15 @@
+.country-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.country {
+  color: var(--primary-color, black);
+  cursor: pointer;
+}
+
+.country.selected {
+  color: var(--secondary-color, #e3127e);
+}

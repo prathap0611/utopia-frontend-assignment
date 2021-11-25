@@ -1,0 +1,19 @@
+.region-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.region {
+  border: 1px solid var(--primary-color, black);
+  color: var(--primary-color, black);
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.region.selected {
+  border-color: var(--secondary-color, #e3127e);
+  color: var(--secondary-color, #e3127e);
+}

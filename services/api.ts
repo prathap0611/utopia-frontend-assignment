@@ -1,3 +1,5 @@
+import countries from './countries.json';
+
 interface countryDetails {
   name: string;
   region: string;
@@ -17,11 +19,11 @@ function aggregateRegions(
 
 export async function fetchRegionAndCounties() {
   try {
-    const response = await fetch(
-      'https://cdn.utopiamusic.com/code-test/frontend/countries.json',
-      { mode: 'cors', method: 'GET' }
-    );
-    const countries = await response.json();
+    // Could not get it working due to CORS issue
+    // const response = await fetch(
+    //   'https://cdn.utopiamusic.com/code-test/frontend/countries.json'
+    // );
+    // const countries = await response.json();
     return aggregateRegions(countries);
   } catch (err) {
     console.error(err);
