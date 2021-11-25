@@ -1,7 +1,28 @@
 .info-bar {
-  margin: 2em;
+  margin: 2rem;
 }
 
 .info-text {
-  font-size: 2em;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .info-bar {
+    margin: 1.5rem;
+  }
+
+  .info-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .info-bar {
+    margin: 1rem;
+  }
+
+  .info-text {
+    font-size: 1rem;
+  }
 }

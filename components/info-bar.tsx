@@ -1,5 +1,5 @@
 import React from 'react';
-import './info-bar.css'
+import './info-bar.css';
 
 export default function InfoBar() {
   return (

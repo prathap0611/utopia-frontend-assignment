@@ -12,7 +12,7 @@ export default function RegionContainer({
 }) {
   return (
     <Fragment>
-      <h2 className="section-title">Regions</h2>
+      <h3 className="section-title">Regions</h3>
       <section className="region-selector">
         {regions.map((region) => (
           <div

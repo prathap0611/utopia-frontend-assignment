@@ -14,5 +14,12 @@ body {
 }
 
 .section-title {
-  padding: 1rem;
+  padding: 0 1rem;
+  margin-block-end: 0px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 14px;
+  }
 }

@@ -18,10 +18,6 @@ export default function App() {
     return Object.keys(data);
   }, [data]);
 
-  // const countries = useMemo(() => {
-  //   return  || [];
-  // }, [data, selectRegion]);
-
   return (
     <div>
       <AppHeader />

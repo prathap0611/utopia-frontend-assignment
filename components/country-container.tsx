@@ -17,9 +17,9 @@ export default function CountryContainer({
 
   return (
     <Fragment>
-      {countries && countries.length && (
+      {countries && countries.length ? (
         <section>
-          <h2 className="section-title">Countries</h2>
+          <h3 className="section-title">Countries</h3>
           <section className="country-selector">
             {countries.map((country) => (
               <div
@@ -34,7 +34,7 @@ export default function CountryContainer({
             ))}
           </section>
         </section>
-      )}
+      ) : null}
     </Fragment>
   );
 }
